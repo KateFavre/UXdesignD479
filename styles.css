@@ -19,6 +19,10 @@ body, ul {
     font-size: 1.5em;
     font-weight: bold;
 }
+.logo-image {
+    width: 50px; /* Adjust size */
+    height: auto;
+}
 
 /* Nav Links (Desktop) */
 .nav-links {
@@ -43,6 +47,7 @@ body, ul {
     cursor: pointer;
 }
 
+
 /* Respons design */
 @media screen and (max-width: 768px) {
     .nav-links {
@@ -66,6 +71,9 @@ body, ul {
 
     .mobileMenu {
         display: block;
+    }
+    .logo-image {
+        width: 40px;
     }
 }
 .container {
