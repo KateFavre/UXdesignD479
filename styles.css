@@ -5,7 +5,7 @@ body, ul {
     font-family: Arial, sans-serif;
 }
 
-/* Navbar Container */
+/* Navbar cont */
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -20,11 +20,11 @@ body, ul {
     font-weight: bold;
 }
 .logo-image {
-    width: 50px; /* Adjust size */
+    width: 50px; /* adj size */
     height: auto;
 }
 
-/* Nav Links (Desktop) */
+/* nav destop */
 .nav-links {
     display: flex;
 }
@@ -39,7 +39,7 @@ body, ul {
     font-size: 1.2em;
 }
 
-/* Mobile Menu */
+/* mobile menu */
 .mobileMenu {
     display: none;
     font-size: 2em;
@@ -112,4 +112,21 @@ body, ul {
 
 .btn:hover {
     background-color: #0056b3; 
+}
+
+/* column images sightsee and entertain pgs*/
+.colimage {
+    max-width: 100%;
+    height: auto;
+
+}
+/* respons stack the col images on smaller screens */
+@media screen and (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .column {
+        width: 100%; /* full width mobile */
+    }
 }
