@@ -79,14 +79,14 @@ body, ul {
 .container {
     display: flex;
     flex-wrap: wrap;
-    gap: 20px; /* space between columns */
+    gap: 20px; /* space between cols */
     padding: 20px;
 }
 
 /* 2 col layout for desktops */
 .column {
     flex: 1; /* Each column takes up = space */
-    min-width: 300px; /* Prevents cols from being too small */
+    min-width: 300px; 
 }
 
 /* respons stack the cols on smaller screens */
